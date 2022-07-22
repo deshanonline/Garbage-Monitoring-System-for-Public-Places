@@ -1,0 +1,152 @@
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/Helvetica-Bold.ttf") format("ttf"),
+       url("/fonts/Helvetica Neu Bold.ttf") format("ttf");
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	
+	&.no-scroll {
+		overflow: hidden;
+	}
+}
+p{
+	font-size: .7rem;
+
+	margin-left: 2px;
+	margin-bottom: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.mod-min ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.mod-min{
+	/*Animations*/   
+/*   -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; */ 
+	opacity: 1;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+
+.close{
+	margin-right: 10px;
+
+}
+.card-body{
+	width: 100%;
+   height: 95%;
+    padding: 0 0 5px 0
+}
+.card-body-btn{
+	position: absolute;	
+	width: 100%;
+    height: 90%;
+	background: transparent;
+    border: none !important;
+    font-size:0;
+    display:block;
+    cursor:pointer;
+
+}
+.card-body-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.splash {
+  /*background: url("./aigrow_logo_trans.png");  */
+  width: 360px;
+  height: 360px;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+}
+.splash-div{
+  align-items: center;	
+  margin: auto;
+  padding: 10px;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 2vmin;
+  }
+  
+  th, td {
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #555}
+  
+  th {
+	background-color: #4CAF50;
+	color: white;
+  }
+.header{
+	background-color: #222;
+	color: white;
+	font-size: 5vmin;  
+}  
+.tabeldiv{
+	position: absolute;
+	top: 8vmin;
+	
+}
+#main-div{
+	padding: 0%;
+	margin: 0;
+}
+.fas:hover ,.fa:hover{
+	color: #fff;	
+}
+.fas ,.fa{
+	color: #ccc;
+	
+}
+.fa-sign-out{
+	text-align: right;	
+	font-family: 'Roboto', sans-serif;
+	font-size: 2vmin;  
+	color: #ccc;
+}
+.fa-sign-out:hover{	  	
+	color: #fff;
+}

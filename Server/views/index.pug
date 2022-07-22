@@ -1,0 +1,23 @@
+extends layout
+
+block layout-content  
+  div.login-div
+    div 
+      label#login-error-msg Error
+      div.form-group
+          label Username:
+          input#txt-username.form-control(name='username', type='text')
+      div.form-group
+          label Password:
+          input#txt-password.form-control(name='password', type='password')
+      div.form-actions
+          input#btn-login.btn.btn-primary(type='submit', value='Login')
+  div#main-div.col-12.row
+    div.col-12.row
+      div.col-11
+       span.header Smart Garbage Management System
+      div.col-1.pull-right#sign-out       
+    div.col-12.tabeldiv
+      div#table
+    
+      

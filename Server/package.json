@@ -1,0 +1,31 @@
+{
+  "name": "aigrow-greenhouse-dashboard-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --proxy=localhost:8000 --files='**/*.css, **/*.pug, **/*.js' --ignore=node_modules --reload-delay 10 --no-ui --no-notify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "clone": "^2.1.2",
+    "colors": "^1.4.0",
+    "delay": "^4.3.0",
+    "express": "^4.17.1",
+    "mqtt": "^4.1.0",
+    "nw": "^0.46.3",
+    "pug": "^3.0.0",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "screenfull": "^5.0.2",
+    "sha1": "^1.1.1",
+    "sio": "0.0.4"
+  }
+}
