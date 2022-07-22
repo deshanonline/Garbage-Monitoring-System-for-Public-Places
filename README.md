@@ -12,5 +12,7 @@ garbage bin trash levels and all garbage bins can view their trash levels using 
 
 <h3 align="left">Project Diagram</h3>
 <p align="left"> <a href="#" target="_blank" rel="noreferrer"> 
-  <img src="#" alt="android" width="auto" height="auto"/>
+  <img src="#" alt="Project Diagram" width="auto" height="auto"/>
 </p>
+
+  
