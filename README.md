@@ -9,3 +9,8 @@ highlights the accumulated trash in colour to indicate the trash collection phas
 keep the city clean by providing a graphical image of the garbage through the IoT Web 
 development platform and notifying about the garbage level. This system only can be identify the 
 garbage bin trash levels and all garbage bins can view their trash levels using single portal. 
+
+<h3 align="left">Project Diagram</h3>
+<p align="left"> <a href="#" target="_blank" rel="noreferrer"> 
+  <img src="#" alt="android" width="auto" height="auto"/>
+</p>
