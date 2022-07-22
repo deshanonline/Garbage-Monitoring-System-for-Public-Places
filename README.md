@@ -12,7 +12,7 @@ garbage bin trash levels and all garbage bins can view their trash levels using 
 
 <h3 align="left">Project Diagram</h3>
 <p align="center"> <a href="#" target="_blank" rel="noreferrer"> 
-  <img src="#" alt="Project Diagram" width="auto" height="auto"/>
+  <img src="https://raw.githubusercontent.com/vihangad/Garbage-Monitoring-System-for-Public-Places/master/Diagrams/Diagram01.jpg" alt="Project Diagram" width="auto" height="auto"/>
 </p>
 
   
