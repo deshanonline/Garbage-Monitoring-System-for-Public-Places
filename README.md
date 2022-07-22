@@ -1,3 +1,5 @@
+#Garbage Monitoring System for Public Places
+
 The Paper IoT-based waste monitoring system is a very innovative system that helps clean 
 cities. A web page makes it easy for administrators to know the bin storage capacity. An ultrasonic 
 sensor is placed in the trash bin to detect the trash phase and balance the trash intensity with this 
