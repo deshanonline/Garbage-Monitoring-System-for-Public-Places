@@ -1,4 +1,4 @@
-<h1 align="center">Garbage Monitoring System for Public Places</h1>
+<h1 align="center">Garbage Monitoring System for Public Places 🗑️</h1>
 
 The Paper IoT-based waste monitoring system is a very innovative system that helps clean 
 cities. A web page makes it easy for administrators to know the bin storage capacity. An ultrasonic 
